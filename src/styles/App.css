@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.generator.large {
+   display: block;
+   width: 120px;
+   height: 60px;
+   background: darkgoldenrod;
+   border: 1px solid black;
+   color: black;
+   border-radius: 3px;
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   margin: auto;
+   font-size: 12px;
+   line-height: 1.5;
+   font-weight: 700;
+   cursor : pointer;
+}
+
+.connectionReq {
+   display: inline-block;
+   background: lightcoral;
+   margin: 10px 5px;
+   border: 1px solid powderblue;
+   padding: 10px;
+}
+   .connectionDate {
+      font-size : 9px;
+      padding : 5px 0;
+      float : right;
+   }
+   .connectionStatus {
+      color : darkred;
+      font-size : 9px;
+      padding : 5px;
+   }
+   .buttonSection {
+      margin : 10px 0;
+   }
+
+button.small{
+   font-size : 10px;
+   color : black;
+   border : 1px solid gray;
+   border-radius : 3px;
+   padding : 5px;
+   cursor: pointer;
+}
+button.approve {
+   background: lightgreen;
+}
+button.reject {
+   background : red;
+}
